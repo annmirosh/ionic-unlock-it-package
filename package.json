@@ -1,0 +1,37 @@
+{
+  "name": "ionic-unlock-it-package",
+  "version": "0.0.2",
+  "description": "A Simple Ionic Unlock Module",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "ngc": "ngc",
+    "build": "rm -rf dist && npm run ngc",
+    "publishPackage": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annmirosh/ionic-unlock-it-package.git"
+  },
+  "keywords": [],
+  "author": "Anna Miroshnichenko",
+  "license": "MIT",
+  "homepage": "https://annmirosh.com",
+  "devDependencies": {
+    "@angular/common": "^7.2.2",
+    "@angular/compiler": "~7.2.2",
+    "@angular/compiler-cli": "~7.2.2",
+    "@angular/core": "^7.2.2",
+    "@angular/forms": "^7.2.2",
+    "@angular/platform-browser": "^7.2.2",
+    "@angular/platform-browser-dynamic": "^7.2.2",
+    "@types/node": "~10.12.0",
+    "@ionic/angular": "^4.0.0",
+    "rxjs": "~6.3.3",
+    "typescript": "~3.1.6",
+    "zone.js": "~0.8.29"
+  }
+}
