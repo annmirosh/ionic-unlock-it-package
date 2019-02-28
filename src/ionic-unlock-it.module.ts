@@ -1,7 +1,7 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { UnlockItComponent } from './components/unlock-it-component';
 import { UnlockItProvider } from './providers/unlock-it-provider';
-import { IonicModule } from 'ionic-angular';
+import { IonicModule } from '@ionic/angular';
 
 @NgModule({
     imports: [
