@@ -1,15 +1,6 @@
 import {Component} from '@angular/core';
 
 const HTML_TEMPLATE = `
-<ion-header>
-  <ion-navbar color="primary">
-    <ion-title>
-      Ionic Unlock It
-    </ion-title>
-  </ion-navbar>
-</ion-header>
- 
-<ion-content padding>
   <button class="unlock-it-btn"
    ion-button
     full 
@@ -17,7 +8,6 @@ const HTML_TEMPLATE = `
     (click)="leavePage()">
     Click me
     </button>
-</ion-content>
 `;
 
 const CSS_STYLE = `
